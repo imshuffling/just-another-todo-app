@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# Todo App built in Create React App, Tailwind.css. Using Localstorage
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
