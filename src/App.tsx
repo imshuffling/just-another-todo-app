@@ -52,6 +52,12 @@ const App: FC = () => {
       <h1 className="mt-2 block text-center text-3xl font-bold leading-8 tracking-tight text-gray-900 sm:text-4xl mb-10">
         Just Another Todo App
       </h1>
+
+      <div className="grid grid-cols-3 flex-row gap-2 text-sm mb-1">
+        <div>Title</div>
+        <div>Deadline</div>
+      </div>
+
       <div className="grid grid-cols-3 flex-row gap-2">
         <div>
           <label htmlFor="email" className="sr-only">
