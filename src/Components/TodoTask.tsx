@@ -15,7 +15,7 @@ const TodoTask = ({ task, completeTask }: Props) => {
       <div className="self-end text-right">
         <button
           type="button"
-          className="inline-flex items-center rounded-full border border-transparent bg-red-600 p-1 text-white shadow-sm hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+          className="inline-flex items-center rounded-full border border-transparent bg-red-600 p-1 text-white shadow-sm hover:bg-red-700 focus:outline-none focus:ring-2 focus:ring-red-500 focus:ring-offset-2"
           onClick={() => {
             completeTask(task.id);
           }}
